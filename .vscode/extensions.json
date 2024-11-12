@@ -1,4 +1,19 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-typescript-vscode.vscode-typescript-next",
+    "aaron-bond.better-comments",
+    "csstools.postcss",
+    "formulahendry.auto-rename-tag",
+    "dsznajder.es7-react-js-snippets",
+    "PKief.material-icon-theme",
+    "formulahendry.code-runner",
+    "naumovs.color-highlight",
+    "usernamehw.errorlens",
+    "wix.vscode-import-cost",
+  ],
   "unwantedRecommendations": []
 }
