@@ -14,6 +14,12 @@ export default {
 			},
 		},
 		extend: {
+			fontFamily: {
+        heading: ['var(--font-heading)'],
+        body: ['var(--font-body)'],
+        ui: ['var(--font-ui)'],
+        code: ['var(--font-code)']
+      },
 			colors: {
 				border: "oklch(var(--border) / <alpha-value>)",
 				input: "oklch(var(--input) / <alpha-value>)",
@@ -28,9 +34,9 @@ export default {
 					DEFAULT: "oklch(var(--secondary) / <alpha-value>)",
 					foreground: "oklch(var(--secondary-foreground) / <alpha-value>)",
 				},
-				destructive: {
-					DEFAULT: "oklch(var(--destructive) / <alpha-value>)",
-					foreground: "oklch(var(--destructive-foreground) / <alpha-value>)",
+				danger: {
+					DEFAULT: "oklch(var(--danger) / <alpha-value>)",
+					foreground: "oklch(var(--danger-foreground) / <alpha-value>)",
 				},
 				muted: {
 					DEFAULT: "oklch(var(--muted) / <alpha-value>)",

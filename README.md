@@ -1,47 +1,59 @@
-# Astro Starter Kit: Minimal
+# NozzUI
 
-```sh
-npm create astro@latest -- --template minimal
-```
+NozzUI es una biblioteca moderna de componentes React que combina lo mejor de Radix UI, Tailwind CSS, y Framer Motion, optimizada con los nuevos estándares de color OKLAB para una mejor percepción y accesibilidad visual.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 🎨 Características
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Componentes Modernos**: Construidos sobre Radix UI primitives para máxima accesibilidad y personalización
+- **Sistema de Color OKLAB**: Utiliza el espacio de color perceptualmente uniforme OKLAB para colores más precisos y naturales
+- **Animaciones Fluidas**: Integración perfecta con Framer Motion para interacciones suaves y atractivas
+- **Copy & Paste**: Diseñado para ser fácil de implementar - simplemente copia el código que necesitas
+- **Tailwind CSS**: Estilizado con Tailwind para una personalización flexible y rápida
+- **TypeScript**: Completamente tipado para una mejor experiencia de desarrollo
 
-## 🚀 Project Structure
+## 🚀 Uso
 
-Inside of your Astro project, you'll see the following folders and files:
+1. Visita [ui.nozz.dev](https://ui.nozz.dev)
+2. Explora los componentes disponibles
+3. Copia el código del componente que necesites
+4. Pega en tu proyecto y personaliza según tus necesidades
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🎯 Próximamente
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- Instalación mediante CLI: `npx nozzui@latest add <component-name>`
+- Más componentes y variantes
+- Temas personalizables
+- Generador de paletas de color OKLAB
+- Documentación interactiva
+- Ejemplos de implementación
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🛠 Tecnologías
 
-Any static assets, like images, can be placed in the `public/` directory.
+- React
+- Radix UI Primitives
+- Tailwind CSS
+- Framer Motion
+- Astro (Documentación)
+- OKLAB Color Space
 
-## 🧞 Commands
+## 🎨 Sistema de Color
 
-All commands are run from the root of the project, from a terminal:
+NozzUI utiliza el espacio de color OKLAB para proporcionar:
+- Mejor percepción del color entre diferentes dispositivos
+- Transiciones más suaves y naturales
+- Mayor accesibilidad y contraste
+- Combinaciones de colores más armoniosas
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 📚 Estructura de Componentes
 
-## 👀 Want to learn more?
+Cada componente sigue una estructura consistente:
+- Componente base de Radix UI
+- Estilos con Tailwind CSS
+- Animaciones opcionales con Framer Motion
+- Variantes predefinidas
+- Ejemplos de uso
+- Código copiable
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+Desarrollado con ❤️ por Nozz

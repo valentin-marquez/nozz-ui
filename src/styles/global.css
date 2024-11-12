@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Font Family Variables */
+    --font-heading: 'Sora', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-ui: 'Inter', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+
+    /* Font Size Variables */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+
+    /* Line Height Variables */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* Letter Spacing Variables */
+    --letter-spacing-tight: -0.025em;
+    --letter-spacing-normal: 0em;
+    --letter-spacing-wide: 0.025em;
+
+    /* Existing theme variables */
+    --background: 98% 0 0;
+    --foreground: 25% 0.02 30;
+
+    --card: 99% 0 0;
+    --card-foreground: 25% 0.02 30;
+
+    --popover: 98% 0 0;
+    --popover-foreground: 25% 0.02 30;
+
+    /* More neutral primary color */
+    --primary: 60% 0.1 240;
+    --primary-foreground: 98% 0 0;
+
+    /* Subtle secondary */
+    --secondary: 95% 0.03 240;
+    --secondary-foreground: 35% 0.08 240;
+
+    /* Neutral grays */
+    --muted: 95% 0.02 240;
+    --muted-foreground: 50% 0.04 240;
+
+    /* Subtle accent */
+    --accent: 90% 0.05 240;
+    --accent-foreground: 30% 0.1 240;
+
+    /* Refined danger */
+    --danger: 65% 0.15 20;
+    --danger-foreground: 98% 0 0;
+
+    /* Interface elements */
+    --border: 90% 0.02 240;
+    --input: 90% 0.02 240;
+    --ring: 60% 0.1 240;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 20% 0.02 240;
+    --foreground: 95% 0.02 240;
+
+    --card: 25% 0.02 240;
+    --card-foreground: 95% 0.02 240;
+
+    --popover: 20% 0.02 240;
+    --popover-foreground: 95% 0.02 240;
+
+    /* Darker primary */
+    --primary: 55% 0.12 240;
+    --primary-foreground: 98% 0 0;
+
+    /* Dark secondary */
+    --secondary: 25% 0.08 240;
+    --secondary-foreground: 95% 0.02 240;
+
+    /* Dark grays */
+    --muted: 30% 0.04 240;
+    --muted-foreground: 60% 0.06 240;
+
+    /* Dark accent */
+    --accent: 35% 0.08 240;
+    --accent-foreground: 95% 0.02 240;
+
+    /* Dark danger */
+    --danger: 55% 0.2 20;
+    --danger-foreground: 98% 0 0;
+
+    /* Dark interface elements */
+    --border: 30% 0.04 240;
+    --input: 30% 0.04 240;
+    --ring: 55% 0.12 240;
+  }
+  /* Aplicación de fuentes */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    letter-spacing: var(--letter-spacing-tight);
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    @apply bg-background text-foreground;
+  }
+
+  code,
+  pre {
+    font-family: var(--font-code);
+    font-size: var(--font-size-sm);
+  }
+
+  button,
+  input,
+  select {
+    font-family: var(--font-ui);
+  }
+
+  /* Utility classes para fuentes */
+  .heading-1 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-tight);
+    font-weight: 700;
+  }
+
+  .heading-2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-tight);
+    font-weight: 600;
+  }
+
+  .body-large {
+    font-family: var(--font-body);
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .ui-text {
+    font-family: var(--font-ui);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+  }
+
+  .code-block {
+    font-family: var(--font-code);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
